@@ -7,11 +7,19 @@
   .hading-text {
     @apply text-[#202050] text-4xl font-bold;
   }
+
   .hading-color-text {
     @apply text-[#F05A2B] text-4xl font-bold;
   }
 
   .paragraph-text {
     @apply text-[#05172D] text-base;
+  }
+
+  .nav-paragraph-text {
+    @apply text-[#202050] font-inter text-lg transition-all duration-300 hover:text-[#4242FF];
+  }
+  .nav-paragraph-text.active{
+    @apply text-[#4242FF];
   }
 }
