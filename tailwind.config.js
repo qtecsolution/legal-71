@@ -35,7 +35,14 @@ module.exports = {
         "footer-bg": "url('src/assets/image/home/footer-bg.png')",
         "browse-all-bg": "linear-gradient(90deg, #F05A2B 0%, #FA991B 100%)",
         "browse-all-bg-hover": "linear-gradient(90deg, #FA991B 0%, #F05A2B 100%)",
-        "faq-gradient": "linear-gradient(112deg, rgba(66, 66, 255, 0.10) 0%, rgba(178, 37, 255, 0.10) 100%)",
+        "faq-gradient":
+          "linear-gradient(112deg, rgba(66, 66, 255, 0.10) 0%, rgba(178, 37, 255, 0.10) 100%)",
+        "about-gradient1":
+          "linear-gradient(112deg, rgba(251, 118, 188, 0.30) 0%, rgba(178, 37, 255, 0.30) 100%)",
+        "about-gradient2":
+          "linear-gradient(112deg, rgba(66, 66, 255, 0.30) 0%, rgba(178, 37, 255, 0.30) 100%)",
+        "about-gradient3":
+          "linear-gradient(90deg, rgba(240, 90, 43, 0.30) 0%, rgba(250, 153, 27, 0.30) 100%)",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],

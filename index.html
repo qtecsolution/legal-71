@@ -22,6 +22,7 @@
 </head>
 
 <body class="font-inter min-h-[100vh] flex flex-col">
+  <!-- header section start -->
   <header id="header" class="sticky top-0 shadow-nav bg-white py-[34px]">
     <div class="container">
       <nav class="flex justify-between items-center">
@@ -61,9 +62,76 @@
       </nav>
     </div>
   </header>
+  <!-- header section end -->
 
+  <!-- main section start -->
   <main class="flex-grow">
 
+    <!-- hero section start -->
+    <section id="hero" class="py-8 md:py-16 lg:py-28">
+      <div class="container"></div>
+    </section>
+    <!-- hero section end -->
+
+    <!-- aboutUs section start -->
+    <section id="aboutUs" class="bg-[#FFF8F6] py-8 md:py-16 lg:py-28">
+      <div class="container">
+        <div class="grid lg:grid-cols-2 gap-10 xl:gap-[128px]">
+          <div class="h-full flex lg:flex-col justify-center">
+            <div class="flex flex-col gap-6 ">
+              <div class="">
+                <span class="bg-[#DEF5FC] rounded-[37px] text-lg text-[#16CAFF] font-semibold font-inter py-1 px-5">
+                  About Us
+                </span>
+              </div>
+              <h1 class="hading-text lg:max-w-[547px]">Our journey began with a simple yet profound <span
+                  class="hading-color-text">mission</span></h1>
+              <p class="paragraph-text lg:max-w-[547px]">
+                Our commitment to excellence is driven by our team of compassionate and skilled healthcare professionals
+                who work tirelessly to ensure you receive the best care possible.
+              </p>
+              <p class="paragraph-text lg:max-w-[547px]">
+                Our commitment to excellence is driven by our team of compassionate and skilled healthcare professionals
+                who work tirelessly to ensure you receive the best care possible.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex justify-center lg:justify-end ">
+            <div class="flex flex-col sm:flex-row gap-4">
+              <div class="flex flex-col gap-4">
+                <figure class="inline">
+                  <img src="./src/assets/image/home/about-us-img1.png" alt="Professional working"
+                    class="rounded-[40px]">
+                </figure>
+                <div class="flex gap-4">
+                  <div class="xl:shrink-0 bg-about-gradient2 w-32 h-32 rounded-full"></div>
+                  <figure class="inline">
+                    <img src="./src/assets/image/home/about-us-img2.png" alt="Statue of Justice"
+                      class="rounded-br-[40px] rounded-l-[40px]">
+                  </figure>
+                </div>
+              </div>
+
+              <div class="flex flex-col gap-4">
+                <div class="bg-about-gradient1 w-36 h-32 rounded-t-[20px] rounded-br-[20px]"></div>
+                <figure class="xl:w-[223px]">
+                  <img src="./src/assets/image/home/about-us-img3.png" alt="Handshake"
+                    class=" w-full rounded-bl-[40px] rounded-r-[40px]">
+                </figure>
+                <div class="bg-about-gradient3 w-36 h-32 rounded-r-[20px] rounded-bl-[20px]"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </section>
+    <!-- aboutUs section end -->
+
+    <!-- services section start -->
     <section id="services" class="bg-[#F8F8FF] py-8 sm:py-14 md:py-20 lg:py-32">
       <div class="container">
         <div class="flex flex-col gap-5 sm:gap-9 lg:gap-[60px]">
@@ -210,7 +278,9 @@
         </div>
       </div>
     </section>
+    <!-- services section end -->
 
+    <!-- ourTeam section start -->
     <section id="ourTeam" class="bg-[#FBF4FF] py-8 md:py-16 lg:py-28">
       <div class="container">
         <div class="flex flex-col gap-5 sm:gap-6 md:gap-8 lg:gap-12">
@@ -317,7 +387,9 @@
         </div>
       </div>
     </section>
+    <!-- ourTeam section end -->
 
+    <!-- faq section start -->
     <section id="faq" class="bg-faq-gradient py-8 md:py-16 lg:py-28">
       <div class="container">
         <div class="flex flex-col gap-5 sm:gap-6 md:gap-8 lg:gap-12">
@@ -418,8 +490,11 @@
         </div>
       </div>
     </section>
+    <!-- faq section end -->
   </main>
+  <!-- main section end -->
 
+  <!-- footer section start -->
   <footer id="footer" style="background-image: url('./src/assets/image/home/footer-bg.png');"
     class="bg-footer-bg bg-no-repeat bg-cover bg-center pt-28 pb-16">
     <div class="container">
@@ -572,6 +647,8 @@
       </div>
     </div>
   </footer>
+  <!-- footer section end -->
+
 
 
 
