@@ -29,7 +29,10 @@ module.exports = {
       },
       backgroundImage: {
         "primary-gradient": "linear-gradient(112deg, #4242FF 0%, #B225FF 100%)",
+        "primary-gradient-hover": "linear-gradient(112deg, #B225FF 0%, #4242FF 100%)",
         "footer-bg": "url('src/assets/image/home/footer-bg.png')",
+        "browse-all-bg": "linear-gradient(90deg, #F05A2B 0%, #FA991B 100%)",
+        "browse-all-bg-hover": "linear-gradient(90deg, #FA991B 0%, #F05A2B 100%)",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
@@ -40,6 +43,16 @@ module.exports = {
       animation: {},
       boxShadow: {
         nav: "0px 0px 1px 0px rgba(12, 26, 75, 0.24), 0px 3px 8px -1px rgba(50, 50, 71, 0.05)", // Custom box shadow
+      },
+
+      transitionProperty: {
+        all: "all", // Custom transition for all properties
+      },
+      transitionDuration: {
+        350: "350ms", // Custom duration of 0.35s
+      },
+      transitionTimingFunction: {
+        "ease-in-out": "ease-in-out", // Custom timing function
       },
     },
   },
