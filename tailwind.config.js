@@ -29,6 +29,7 @@ module.exports = {
       },
       backgroundImage: {
         "primary-gradient": "linear-gradient(112deg, #4242FF 0%, #B225FF 100%)",
+        "footer-bg": "url('src/assets/image/home/footer-bg.png')",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
