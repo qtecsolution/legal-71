@@ -21,6 +21,8 @@ module.exports = {
         "sm-mobile-450": "450px", // Min-width: 450px and above
         "sm-mobile-480": "480px", // Min-width: 480px and above
         "sm-mobile-520": "520px", // Min-width: 520px and above
+        "sm-mobile-550": "550px", // Min-width: 550px and above
+        "sm-mobile-580": "580px", // Min-width: 580px and above
         "sm-mobile-610": "610px", // Min-width: 610px and above
       },
       colors: {
@@ -33,6 +35,7 @@ module.exports = {
         "footer-bg": "url('src/assets/image/home/footer-bg.png')",
         "browse-all-bg": "linear-gradient(90deg, #F05A2B 0%, #FA991B 100%)",
         "browse-all-bg-hover": "linear-gradient(90deg, #FA991B 0%, #F05A2B 100%)",
+        "faq-gradient": "linear-gradient(112deg, rgba(66, 66, 255, 0.10) 0%, rgba(178, 37, 255, 0.10) 100%)",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
