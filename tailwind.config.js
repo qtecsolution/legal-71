@@ -28,6 +28,7 @@ module.exports = {
       colors: {
         primary: "#F05A2B", // Add your custom colors
         secondary: "#14171A",
+        borderColor: "rgba(239, 239, 239, 0.00)",
       },
       backgroundImage: {
         "primary-gradient": "linear-gradient(112deg, #4242FF 0%, #B225FF 100%)",
@@ -53,6 +54,7 @@ module.exports = {
       animation: {},
       boxShadow: {
         nav: "0px 0px 1px 0px rgba(12, 26, 75, 0.24), 0px 3px 8px -1px rgba(50, 50, 71, 0.05)", // Custom box shadow
+        heroBox: "10px 10px 80px 0px rgba(0, 0, 0, 0.10)",
       },
 
       transitionProperty: {
