@@ -30,6 +30,10 @@
     box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.08);
   }
 
+  .browseAllServices-btn {
+    @apply bg-browse-all-bg flex justify-center items-center gap-2 py-2 sm:py-4 px-3 sm:px-[21px] rounded-2xl text-xl sm:text-2xl md:text-3xl lg:text-4xl text-white font-bold transition-all hover:bg-browse-all-bg-hover;
+  }
+
   @keyframes smooth-move-top-bottom {
     0% {
       transform: translate(-20px, -20px);
@@ -47,7 +51,18 @@
     animation: smooth-move-top-bottom 2s ease-in-out forwards;
   }
 
+  .serviceCard {
+    @apply bg-white rounded-xl lg:rounded-[40px] py-4 sm:py-8 lg:py-12 px-2 sm:px-5 lg:px-9 transition-all duration-350 cursor-pointer;
+  }
 
+  .serviceCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  #allServices {
+    background-image: url('../image/service/service-bg.png');
+    @apply bg-no-repeat bg-cover bg-center;
+  }
 
 
 }
