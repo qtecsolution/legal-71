@@ -13,8 +13,9 @@
 
   <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="./src/assets/css/swiper.css">
-  <!-- nice-select2 -->
-  <link rel="stylesheet" href="./src/assets/css/nice-select2.css">
+  <!-- back-top -->
+  <link rel="stylesheet" href="./src/assets/css/back-top/back-top.css">
+  <!-- daisyUI  -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
 
   <!-- tailwind css -->
@@ -71,7 +72,8 @@
       <div class="container">
         <div class="grid lg:grid-cols-2 gap-20 lg:gap-0">
           <div class="space-y-12 order-2 lg:order-1">
-            <h1 class="text-[#202050] font-playfair text-4xl xl:text-5xl 2xl:text-[64px] capitalize font-extrabold w-[90%] 2xl:w-full">
+            <h1
+              class="text-[#202050] font-playfair text-4xl xl:text-5xl 2xl:text-[64px] capitalize font-extrabold w-[90%] 2xl:w-full">
               To Protect your <span class="text-primary">rights</span>
               we Are always active
             </h1>
@@ -113,7 +115,7 @@
             <div class="relative">
               <img class="rounded-3xl  sm:w-[80%] xl:w-full" src="./src/assets/image/home/hero-bg.png" alt="" />
               <div
-                class="border border-borderColor shadow-heroBox rounded-3xl p-2 sm:p-5 bg-white absolute top-1/2 -translate-y-1/2 sm:top-10  sm:-left-12 space-y-2.5">
+                class="border border-borderColor shadow-heroBox rounded-3xl p-2 sm:p-5 bg-white absolute top-1/2 -translate-y-1/2 sm:-translate-y-0 sm:top-10  sm:-left-12 space-y-2.5">
                 <div class="flex items-center gap-3">
                   <div class="w-9 h-9">
                     <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -253,8 +255,26 @@
                 <figure
                   class="relative w-full max-w-[188px] sm:max-w-[300px] xl:max-w-[422px] 2xl:max-w-[442px] max-h-[332px]">
                   <img class="w-full h-full" src="./src/assets/image/home/video-themnel.png" alt="" />
-                  <img class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer"
-                    src="./src/assets/image/home/play-btn.png" alt="" />
+                  <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer">
+                    <div class="play-btn">
+                      <svg width="85" height="84" viewBox="0 0 85 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="42.5762" cy="42.158" r="41.8281" fill="white" fill-opacity="0.3" />
+                        <circle cx="42.5764" cy="42.158" r="30.3997" fill="white" fill-opacity="0.4" />
+                        <circle cx="42.5757" cy="42.158" r="18.9712" fill="url(#paint0_linear_47_267)" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M36.5186 36.6101C36.5186 35.4141 37.8 34.6574 38.8476 35.2331L48.5191 40.5524C49.6044 41.1492 49.6044 42.7088 48.5191 43.3064L38.8484 48.6257C37.8008 49.2015 36.5194 48.4439 36.5194 47.2488L36.5186 36.6101Z"
+                          fill="white" />
+                        <defs>
+                          <linearGradient id="paint0_linear_47_267" x1="23.6045" y1="42.158" x2="61.5469" y2="42.158"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#F05A2B" />
+                            <stop offset="1" stop-color="#FA991B" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+
+                    </div>
+                  </div>
                 </figure>
               </div>
             </div>
@@ -972,6 +992,12 @@
 
   <!-- Swiper JS -->
   <script src="./src/assets/js/Swiper_js/swiper.js"></script>
+
+  <!-- back to top js -->
+  <script src="./src/assets/js/back-top/back-top.js"></script>
+  <script src="./src/assets/js/back-top/backtotop2.js"></script>
+  <!-- Custom main js -->
+  <script src="./assets/js/main.js"></script>
   <!-- daisyUI -->
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- Custom main js -->
