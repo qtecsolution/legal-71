@@ -1126,6 +1126,14 @@ video {
   height: 100%;
 }
 
+.h-52{
+  height: 13rem;
+}
+
+.h-96{
+  height: 24rem;
+}
+
 .max-h-\[259px\]{
   max-height: 259px;
 }
@@ -1202,6 +1210,10 @@ video {
   width: 100%;
 }
 
+.w-52{
+  width: 13rem;
+}
+
 .max-w-2xl{
   max-width: 42rem;
 }
@@ -1246,6 +1258,30 @@ video {
   max-width: 36rem;
 }
 
+.max-w-\[1\]{
+  max-width: 1;
+}
+
+.max-w-\[10\]{
+  max-width: 10;
+}
+
+.max-w-\[1076\]{
+  max-width: 1076;
+}
+
+.max-w-\[1076px\]{
+  max-width: 1076px;
+}
+
+.max-w-\[400px\]{
+  max-width: 400px;
+}
+
+.max-w-\[233px\]{
+  max-width: 233px;
+}
+
 .shrink-0{
   flex-shrink: 0;
 }
@@ -1274,6 +1310,10 @@ video {
 
 .resize{
   resize: both;
+}
+
+.grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-col{
@@ -1414,6 +1454,18 @@ video {
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
 
+.space-y-24 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(6rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(6rem * var(--tw-space-y-reverse));
+}
+
+.space-y-8 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+}
+
 .rounded-2xl{
   border-radius: 1rem;
 }
@@ -1477,6 +1529,21 @@ video {
   border-top-right-radius: 20px;
 }
 
+.rounded-l{
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.rounded-l-3xl{
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+.rounded-b-xl{
+  border-bottom-right-radius: 0.75rem;
+  border-bottom-left-radius: 0.75rem;
+}
+
 .rounded-bl-2xl{
   border-bottom-left-radius: 1rem;
 }
@@ -1538,6 +1605,19 @@ video {
 .border-white{
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.border-\[\]{
+  border-color: ;
+}
+
+.border-\[\#\]{
+  border-color: #;
+}
+
+.border-\[\#202050\]{
+  --tw-border-opacity: 1;
+  border-color: rgb(32 32 80 / var(--tw-border-opacity));
 }
 
 .bg-\[\#0FB24C\]{
@@ -1658,6 +1738,10 @@ video {
   background-image: linear-gradient(112deg, rgba(71, 68, 173, 0.15) 1.36%, rgba(56, 64, 247, 0.15) 19.75%, rgba(243, 98, 53, 0.15) 38.33%, rgba(217, 60, 101, 0.15) 59.85%, rgba(178, 37, 255, 0.15) 74.98%, rgba(83, 216, 255, 0.15) 99.16%);
 }
 
+.bg-contact-gradient{
+  background-image: linear-gradient(112deg, #ECECFF 0%, #F8EBFF 100%);
+}
+
 .bg-cover{
   background-size: cover;
 }
@@ -1692,6 +1776,10 @@ video {
 
 .p-4{
   padding: 1rem;
+}
+
+.p-14{
+  padding: 3.5rem;
 }
 
 .px-12{
@@ -1809,6 +1897,11 @@ video {
   padding-bottom: 7px;
 }
 
+.py-2\.5{
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+
 .pb-16{
   padding-bottom: 4rem;
 }
@@ -1859,6 +1952,10 @@ video {
 
 .pt-7{
   padding-top: 1.75rem;
+}
+
+.pt-4{
+  padding-top: 1rem;
 }
 
 .text-center{
@@ -2035,6 +2132,10 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\]{
+  color: ;
 }
 
 .opacity-50{
@@ -2318,8 +2419,38 @@ video {
     margin-bottom: calc(2rem * var(--tw-space-y-reverse));
   }
 
+  .sm\:space-y-16 > :not([hidden]) ~ :not([hidden]){
+    --tw-space-y-reverse: 0;
+    margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(4rem * var(--tw-space-y-reverse));
+  }
+
   .sm\:rounded-3xl{
     border-radius: 1.5rem;
+  }
+
+  .sm\:rounded-2xl{
+    border-radius: 1rem;
+  }
+
+  .sm\:rounded-l-3xl{
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+  }
+
+  .sm\:rounded-l-2xl{
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+
+  .sm\:rounded-r-2xl{
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+
+  .sm\:rounded-b-2xl{
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
   }
 
   .sm\:p-10{
@@ -2432,8 +2563,16 @@ video {
     margin-bottom: 4rem;
   }
 
+  .md\:h-full{
+    height: 100%;
+  }
+
   .md\:w-52{
     width: 13rem;
+  }
+
+  .md\:w-full{
+    width: 100%;
   }
 
   .md\:max-w-2xl{
@@ -2512,6 +2651,10 @@ video {
     border-radius: 40px;
   }
 
+  .md\:rounded-2xl{
+    border-radius: 1rem;
+  }
+
   .md\:rounded-l-3xl{
     border-top-left-radius: 1.5rem;
     border-bottom-left-radius: 1.5rem;
@@ -2520,6 +2663,31 @@ video {
   .md\:rounded-r-3xl{
     border-top-right-radius: 1.5rem;
     border-bottom-right-radius: 1.5rem;
+  }
+
+  .md\:rounded-r-2xl{
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+
+  .md\:rounded-b-2xl{
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+
+  .md\:rounded-l-2xl{
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+
+  .md\:rounded-b{
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+  }
+
+  .md\:rounded-b-none{
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
   }
 
   .md\:rounded-bl-3xl{
@@ -2746,8 +2914,22 @@ video {
     margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
   }
 
+  .lg\:space-y-24 > :not([hidden]) ~ :not([hidden]){
+    --tw-space-y-reverse: 0;
+    margin-top: calc(6rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(6rem * var(--tw-space-y-reverse));
+  }
+
   .lg\:rounded-\[40px\]{
     border-radius: 40px;
+  }
+
+  .lg\:rounded-2xl{
+    border-radius: 1rem;
+  }
+
+  .lg\:rounded-3xl{
+    border-radius: 1.5rem;
   }
 
   .lg\:rounded-l-\[40px\]{
@@ -2758,6 +2940,16 @@ video {
   .lg\:rounded-r-\[40px\]{
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
+  }
+
+  .lg\:rounded-l-3xl{
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+  }
+
+  .lg\:rounded-r-3xl{
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
   }
 
   .lg\:rounded-bl-\[40px\]{
@@ -2809,6 +3001,11 @@ video {
   .lg\:py-36{
     padding-top: 9rem;
     padding-bottom: 9rem;
+  }
+
+  .lg\:py-\[34px\]{
+    padding-top: 34px;
+    padding-bottom: 34px;
   }
 
   .lg\:pb-24{

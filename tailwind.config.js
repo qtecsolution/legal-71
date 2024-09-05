@@ -44,6 +44,7 @@ module.exports = {
           "linear-gradient(112deg, rgba(66, 66, 255, 0.30) 0%, rgba(178, 37, 255, 0.30) 100%)",
         "about-gradient3":
           "linear-gradient(90deg, rgba(240, 90, 43, 0.30) 0%, rgba(250, 153, 27, 0.30) 100%)",
+        "contact-gradient": "linear-gradient(112deg, #ECECFF 0%, #F8EBFF 100%)",
         "testimonial-gradient":
           "linear-gradient(112deg, rgba(71, 68, 173, 0.15) 1.36%, rgba(56, 64, 247, 0.15) 19.75%, rgba(243, 98, 53, 0.15) 38.33%, rgba(217, 60, 101, 0.15) 59.85%, rgba(178, 37, 255, 0.15) 74.98%, rgba(83, 216, 255, 0.15) 99.16%)",
       },
