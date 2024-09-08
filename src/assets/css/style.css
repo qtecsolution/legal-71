@@ -661,6 +661,7 @@ video {
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 700;
+  line-height: 34px;
   --tw-text-opacity: 1;
   color: rgb(32 32 80 / var(--tw-text-opacity));
 }
@@ -669,6 +670,7 @@ video {
   .hading-text{
     font-size: 1.875rem;
     line-height: 2.25rem;
+    line-height: 42px;
   }
 }
 
@@ -676,6 +678,7 @@ video {
   .hading-text{
     font-size: 2.25rem;
     line-height: 2.5rem;
+    line-height: 50px;
   }
 }
 
@@ -753,10 +756,10 @@ video {
   gap: 0.5rem;
   border-radius: 1rem;
   background-image: linear-gradient(90deg, #F05A2B 0%, #FA991B 100%);
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 700;
@@ -773,10 +776,6 @@ video {
 
 @media (min-width: 640px){
   .browseAllServices-btn{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 21px;
-    padding-right: 21px;
     font-size: 1.5rem;
     line-height: 2rem;
   }
@@ -784,15 +783,12 @@ video {
 
 @media (min-width: 768px){
   .browseAllServices-btn{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 0.875rem;
+    padding-bottom: 0.875rem;
     font-size: 1.875rem;
     line-height: 2.25rem;
-  }
-}
-
-@media (min-width: 1024px){
-  .browseAllServices-btn{
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 }
 
@@ -1065,6 +1061,10 @@ video {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 5;
+}
+
+.block{
+  display: block;
 }
 
 .inline{
@@ -1688,12 +1688,30 @@ video {
   background-image: url('src/assets/image/home/footer-bg.png');
 }
 
+.bg-gradient-to-r{
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
 .bg-primary-gradient{
   background-image: linear-gradient(112deg, #4242FF 0%, #B225FF 100%);
 }
 
 .bg-testimonial-gradient{
   background-image: linear-gradient(112deg, rgba(71, 68, 173, 0.15) 1.36%, rgba(56, 64, 247, 0.15) 19.75%, rgba(243, 98, 53, 0.15) 38.33%, rgba(217, 60, 101, 0.15) 59.85%, rgba(178, 37, 255, 0.15) 74.98%, rgba(83, 216, 255, 0.15) 99.16%);
+}
+
+.bg-testimonial-user-gradient{
+  background-image: linear-gradient(112deg, rgba(66, 66, 255, 0.80) 0%, rgba(251, 118, 188, 0.80) 50.3%, rgba(178, 37, 255, 0.80) 100%);
+}
+
+.from-\[\#4242FF\]{
+  --tw-gradient-from: #4242FF var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(66 66 255 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-\[\#B225FF\]{
+  --tw-gradient-to: #B225FF var(--tw-gradient-to-position);
 }
 
 .bg-cover{
@@ -1734,6 +1752,14 @@ video {
 
 .p-4{
   padding: 1rem;
+}
+
+.p-\[1px\]{
+  padding: 1px;
+}
+
+.p-0\.5{
+  padding: 0.125rem;
 }
 
 .px-12{
@@ -1914,6 +1940,10 @@ video {
 
 .text-center{
   text-align: center;
+}
+
+.text-justify{
+  text-align: justify;
 }
 
 .font-inter{
@@ -2160,9 +2190,8 @@ video {
   background-color: rgb(28 150 72 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-\[\#4242FF\]:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(66 66 255 / var(--tw-bg-opacity));
+.hover\:bg-gradient-to-r:hover{
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
 .hover\:bg-primary-gradient-hover:hover{
@@ -2234,11 +2263,6 @@ video {
 
   .sm\:top-10{
     top: 2.5rem;
-  }
-
-  .sm\:mx-3{
-    margin-left: 0.75rem;
-    margin-right: 0.75rem;
   }
 
   .sm\:mb-16{
@@ -2397,10 +2421,6 @@ video {
     padding: 2.5rem;
   }
 
-  .sm\:p-4{
-    padding: 1rem;
-  }
-
   .sm\:p-5{
     padding: 1.25rem;
   }
@@ -2423,6 +2443,16 @@ video {
     padding-right: 0.75rem;
   }
 
+  .sm\:px-4{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .sm\:px-5{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
   .sm\:px-\[21px\]{
     padding-left: 21px;
     padding-right: 21px;
@@ -2436,6 +2466,11 @@ video {
   .sm\:py-14{
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
+  }
+
+  .sm\:py-2\.5{
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
   }
 
   .sm\:py-20{
@@ -3006,6 +3041,10 @@ video {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
+
+  .xl\:leading-\[70px\]{
+    line-height: 70px;
+  }
 }
 
 @media (min-width: 1536px){
@@ -3039,5 +3078,9 @@ video {
 
   .\32xl\:text-\[64px\]{
     font-size: 64px;
+  }
+
+  .\32xl\:leading-\[85px\]{
+    line-height: 85px;
   }
 }

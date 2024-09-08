@@ -47,6 +47,8 @@ module.exports = {
         "contact-gradient": "linear-gradient(112deg, #ECECFF 0%, #F8EBFF 100%)",
         "testimonial-gradient":
           "linear-gradient(112deg, rgba(71, 68, 173, 0.15) 1.36%, rgba(56, 64, 247, 0.15) 19.75%, rgba(243, 98, 53, 0.15) 38.33%, rgba(217, 60, 101, 0.15) 59.85%, rgba(178, 37, 255, 0.15) 74.98%, rgba(83, 216, 255, 0.15) 99.16%)",
+        "testimonial-user-gradient":
+          "linear-gradient(112deg, rgba(66, 66, 255, 0.80) 0%, rgba(251, 118, 188, 0.80) 50.3%, rgba(178, 37, 255, 0.80) 100%)",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
