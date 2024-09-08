@@ -657,6 +657,7 @@ video {
 }
 
 .hading-text{
+  font-family: Playfair Display, serif;
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 700;
@@ -1593,6 +1594,11 @@ video {
   background-color: rgb(226 243 215 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#E9EAFF\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(233 234 255 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#EBEBFC\]{
   --tw-bg-opacity: 1;
   background-color: rgb(235 235 252 / var(--tw-bg-opacity));
@@ -2020,6 +2026,11 @@ video {
 .text-\[\#202050\]{
   --tw-text-opacity: 1;
   color: rgb(32 32 80 / var(--tw-text-opacity));
+}
+
+.text-\[\#3840F7\]{
+  --tw-text-opacity: 1;
+  color: rgb(56 64 247 / var(--tw-text-opacity));
 }
 
 .text-\[\#398A54\]{
