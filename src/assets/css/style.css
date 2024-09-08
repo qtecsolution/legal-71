@@ -2038,6 +2038,18 @@ video {
   text-transform: capitalize;
 }
 
+.leading-\[\]{
+  line-height: ;
+}
+
+.leading-\[45\]{
+  line-height: 45;
+}
+
+.leading-\[45px\]{
+  line-height: 45px;
+}
+
 .text-\[\#05172D\]{
   --tw-text-opacity: 1;
   color: rgb(5 23 45 / var(--tw-text-opacity));
@@ -2700,6 +2712,10 @@ video {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
+
+  .md\:leading-\[70px\]{
+    line-height: 70px;
+  }
 }
 
 @media (min-width: 1024px){
@@ -3044,6 +3060,18 @@ video {
 
   .xl\:leading-\[70px\]{
     line-height: 70px;
+  }
+
+  .xl\:leading-\[85px\]{
+    line-height: 85px;
+  }
+
+  .xl\:leading-\[px\]{
+    line-height: px;
+  }
+
+  .xl\:leading-\[90px\]{
+    line-height: 90px;
   }
 }
 
