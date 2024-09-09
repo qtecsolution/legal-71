@@ -1734,6 +1734,10 @@ video {
   fill: currentColor;
 }
 
+.p-0\.5{
+  padding: 0.125rem;
+}
+
 .p-14{
   padding: 3.5rem;
 }
@@ -1758,8 +1762,9 @@ video {
   padding: 1px;
 }
 
-.p-0\.5{
-  padding: 0.125rem;
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .px-12{
@@ -2036,14 +2041,6 @@ video {
 
 .capitalize{
   text-transform: capitalize;
-}
-
-.leading-\[\]{
-  line-height: ;
-}
-
-.leading-\[45\]{
-  line-height: 45;
 }
 
 .leading-\[45px\]{
@@ -2699,6 +2696,11 @@ video {
     padding-bottom: 6rem;
   }
 
+  .md\:px-10{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
   .md\:pb-16{
     padding-bottom: 4rem;
   }
@@ -3060,14 +3062,6 @@ video {
 
   .xl\:leading-\[70px\]{
     line-height: 70px;
-  }
-
-  .xl\:leading-\[85px\]{
-    line-height: 85px;
-  }
-
-  .xl\:leading-\[px\]{
-    line-height: px;
   }
 
   .xl\:leading-\[90px\]{
