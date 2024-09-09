@@ -1063,6 +1063,13 @@ video {
   -webkit-line-clamp: 5;
 }
 
+.line-clamp-4{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
+
 .block{
   display: block;
 }
@@ -1129,6 +1136,10 @@ video {
 
 .h-full{
   height: 100%;
+}
+
+.h-\[96px\]{
+  height: 96px;
 }
 
 .max-h-\[259px\]{
@@ -1205,6 +1216,18 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-\[\]{
+  width: ;
+}
+
+.w-\[96\]{
+  width: 96;
+}
+
+.w-\[96px\]{
+  width: 96px;
 }
 
 .max-w-2xl{
