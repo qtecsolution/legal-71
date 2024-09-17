@@ -886,6 +886,20 @@ video {
   background-repeat: no-repeat;
 }
 
+::-moz-selection {
+  background-color: #F05A2B;
+  /* Change this to the desired background color */
+  color: #ffffff;
+  /* Change this to the desired text color */
+}
+
+::selection {
+  background-color: #F05A2B;
+  /* Change this to the desired background color */
+  color: #ffffff;
+  /* Change this to the desired text color */
+}
+
 .pointer-events-none{
   pointer-events: none;
 }
@@ -1072,10 +1086,6 @@ video {
 
 .block{
   display: block;
-}
-
-.inline-block{
-  display: inline-block;
 }
 
 .inline{
@@ -1916,6 +1926,10 @@ video {
   padding-right: 0.5rem;
 }
 
+.pr-5{
+  padding-right: 1.25rem;
+}
+
 .pr-6{
   padding-right: 1.5rem;
 }
@@ -1946,14 +1960,6 @@ video {
 
 .pt-7{
   padding-top: 1.75rem;
-}
-
-.pl-5{
-  padding-left: 1.25rem;
-}
-
-.pr-5{
-  padding-right: 1.25rem;
 }
 
 .text-center{
@@ -2309,10 +2315,6 @@ video {
 
   .sm\:h-32{
     height: 8rem;
-  }
-
-  .sm\:h-\[140px\]{
-    height: 140px;
   }
 
   .sm\:h-\[18px\]{
@@ -2790,10 +2792,6 @@ video {
     display: none;
   }
 
-  .lg\:h-40{
-    height: 10rem;
-  }
-
   .lg\:w-full{
     width: 100%;
   }
@@ -2988,11 +2986,6 @@ video {
 
   .lg\:pl-\[60px\]{
     padding-left: 60px;
-  }
-
-  .lg\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 
   .lg\:text-5xl{
