@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 /*
-! tailwindcss v3.4.10 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.11 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -1056,13 +1056,6 @@ video {
   -webkit-line-clamp: 3;
 }
 
-.line-clamp-5{
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 5;
-}
-
 .line-clamp-4{
   overflow: hidden;
   display: -webkit-box;
@@ -1070,8 +1063,19 @@ video {
   -webkit-line-clamp: 4;
 }
 
+.line-clamp-5{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+}
+
 .block{
   display: block;
+}
+
+.inline-block{
+  display: inline-block;
 }
 
 .inline{
@@ -1080,6 +1084,10 @@ video {
 
 .flex{
   display: flex;
+}
+
+.inline-flex{
+  display: inline-flex;
 }
 
 .grid{
@@ -1134,12 +1142,12 @@ video {
   height: 300px;
 }
 
-.h-full{
-  height: 100%;
-}
-
 .h-\[96px\]{
   height: 96px;
+}
+
+.h-full{
+  height: 100%;
 }
 
 .max-h-\[259px\]{
@@ -1216,18 +1224,6 @@ video {
 
 .w-full{
   width: 100%;
-}
-
-.w-\[\]{
-  width: ;
-}
-
-.w-\[96\]{
-  width: 96;
-}
-
-.w-\[96px\]{
-  width: 96px;
 }
 
 .max-w-2xl{
@@ -1552,10 +1548,6 @@ video {
   border-width: 1px;
 }
 
-.border-2{
-  border-width: 2px;
-}
-
 .border-\[12px\]{
   border-width: 12px;
 }
@@ -1571,11 +1563,6 @@ video {
 .border-\[\#202050\]{
   --tw-border-opacity: 1;
   border-color: rgb(32 32 80 / var(--tw-border-opacity));
-}
-
-.border-\[\#4242FF\]{
-  --tw-border-opacity: 1;
-  border-color: rgb(66 66 255 / var(--tw-border-opacity));
 }
 
 .border-\[\#504F59\]{
@@ -1783,11 +1770,6 @@ video {
 
 .p-\[1px\]{
   padding: 1px;
-}
-
-.px-10{
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
 }
 
 .px-12{
@@ -2694,6 +2676,11 @@ video {
     background-position: right top;
   }
 
+  .md\:px-10{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
   .md\:px-5{
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -2717,11 +2704,6 @@ video {
   .md\:py-24{
     padding-top: 6rem;
     padding-bottom: 6rem;
-  }
-
-  .md\:px-10{
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
   }
 
   .md\:pb-16{
