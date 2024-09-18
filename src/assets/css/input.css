@@ -6,11 +6,11 @@
 
 @layer components {
   .hading-text {
-    @apply text-[#202050] text-2xl leading-[34px] md:text-3xl md:leading-[42px] lg:text-4xl lg:leading-[50px] font-bold font-playfair;
+    @apply text-[#202050] text-xl leading-[34px] md:text-3xl md:leading-[42px] lg:text-4xl lg:leading-[50px] font-bold font-playfair;
   }
 
   .hading-color-text {
-    @apply text-[#F05A2B] text-2xl md:text-3xl lg:text-4xl font-bold;
+    @apply text-[#F05A2B] text-xl md:text-3xl lg:text-4xl font-bold;
   }
 
   .paragraph-text {
@@ -18,21 +18,33 @@
   }
 
   .nav-paragraph-text {
-    @apply text-[#202050] font-inter text-lg transition-all duration-300 hover:text-[#4242FF];
+    @apply text-[#202050] font-inter text-lg transition-all duration-300 hover:text-[#F05A2B];
   }
 
   .nav-paragraph-text.active {
-    @apply text-black bg-white;
+    @apply text-[#F05A2B] active:text-[#F05A2B];
+  }
+
+  .menu li a {
+    @apply border-b border-[#727272] rounded-none font-medium;
+  }
+
+  .menu li a:focus {
+    @apply shadow-none ring-0;
+  }
+
+  .menu li .active {
+    @apply border-b border-[#F05A2B];
   }
 
   .menu li>:not(ul, .menu-title, details, .btn).active,
   .menu li>:not(ul, .menu-title, details, .btn):active,
   .menu li>details>summary:active {
-    @apply text-black bg-white;
+    @apply text-[#F05A2B] active:text-[#F05A2B] hover:text-[#F05A2B] bg-white rounded-none;
   }
 
   .primary-btn {
-    @apply rounded-lg bg-primary-gradient flex justify-center items-center gap-2.5 text-white font-inter text-lg font-semibold;
+    @apply rounded-lg bg-primary-gradient flex justify-center items-center gap-2.5 text-white font-inter text-sm sm:text-lg font-semibold;
     box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.08);
   }
 
