@@ -22,7 +22,13 @@
   }
 
   .nav-paragraph-text.active {
-    @apply text-[#4242FF];
+    @apply text-black bg-white;
+  }
+
+  .menu li>:not(ul, .menu-title, details, .btn).active,
+  .menu li>:not(ul, .menu-title, details, .btn):active,
+  .menu li>details>summary:active {
+    @apply text-black bg-white;
   }
 
   .primary-btn {
@@ -82,6 +88,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .drawer-content .btn {
+    /* background-color: #F05A2B !important; */
+    @apply bg-[#F05A2B] text-white border-none;
   }
 
   .serviceCard {
