@@ -33,7 +33,6 @@ module.exports = {
       backgroundImage: {
         "primary-gradient": "linear-gradient(112deg, #4242FF 0%, #B225FF 100%)",
         "primary-gradient-hover": "linear-gradient(112deg, #B225FF 0%, #4242FF 100%)",
-        "footer-bg": "url('src/assets/image/home/footer-bg.png')",
         "browse-all-bg": "linear-gradient(90deg, #F05A2B 0%, #FA991B 100%)",
         "browse-all-bg-hover": "linear-gradient(90deg, #FA991B 0%, #F05A2B 100%)",
         "faq-gradient":
