@@ -24,8 +24,16 @@ var ourTeamMembers = new Swiper(".ourTeamMembers", {
       slidesPerView: 2,
       spaceBetween: 20,
     },
-    1024: {
+    768: {
       slidesPerView: 3,
+      spaceBetween: 20,
+    },
+    992: {
+      slidesPerView: 4,
+      spaceBetween: 20,
+    },
+    1024: {
+      slidesPerView: 5,
       spaceBetween: 20,
     },
   },
