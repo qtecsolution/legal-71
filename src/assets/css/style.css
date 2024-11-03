@@ -2378,6 +2378,10 @@ video {
     margin-top: 4rem;
   }
 
+  .sm\:mb-6{
+    margin-bottom: 1.5rem;
+  }
+
   .sm\:block{
     display: block;
   }
@@ -2670,6 +2674,10 @@ video {
     top: -70px;
   }
 
+  .md\:mb-8{
+    margin-bottom: 2rem;
+  }
+
   .md\:h-full{
     height: 100%;
   }
@@ -2882,6 +2890,10 @@ video {
 
   .lg\:mb-24{
     margin-bottom: 6rem;
+  }
+
+  .lg\:mb-12{
+    margin-bottom: 3rem;
   }
 
   .lg\:block{
