@@ -1652,11 +1652,6 @@ video {
   border-color: rgba(239, 239, 239, 0.00);
 }
 
-.border-red-500{
-  --tw-border-opacity: 1;
-  border-color: rgb(239 68 68 / var(--tw-border-opacity));
-}
-
 .border-white{
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
@@ -2374,12 +2369,12 @@ video {
     margin-bottom: 9rem;
   }
 
-  .sm\:mt-16{
-    margin-top: 4rem;
-  }
-
   .sm\:mb-6{
     margin-bottom: 1.5rem;
+  }
+
+  .sm\:mt-16{
+    margin-top: 4rem;
   }
 
   .sm\:block{
@@ -2888,12 +2883,12 @@ video {
     grid-column: span 7 / span 7;
   }
 
-  .lg\:mb-24{
-    margin-bottom: 6rem;
-  }
-
   .lg\:mb-12{
     margin-bottom: 3rem;
+  }
+
+  .lg\:mb-24{
+    margin-bottom: 6rem;
   }
 
   .lg\:block{

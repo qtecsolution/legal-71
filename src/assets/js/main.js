@@ -8,17 +8,27 @@ const swiper = new Swiper(".testimonialSwiper", {
 });
 
 var ourTeamMembers = new Swiper(".ourTeamMembers", {
-  slidesPerView: 1,
-  spaceBetween: 10,
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false,
-  },
-  loop: true,
+  // slidesPerView: 1,
+
+  // autoplay: {
+  //   delay: 2500,
+  //   disableOnInteraction: false,
+  // },
+  // loop: true,
   // pagination: {
   //   el: ".swiper-pagination",
   //   clickable: true,
   // },
+
+  direction: "horizontal",
+  loop: true,
+  speed: 3500,
+  autoplay: {
+    delay: 0,
+    disableOnInteraction: false,
+  },
+  slidesPerView: "auto",
+  spaceBetween: 10,
   breakpoints: {
     550: {
       slidesPerView: 2,
